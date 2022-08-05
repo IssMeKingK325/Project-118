@@ -1,0 +1,43 @@
+body
+{
+    font-family: 'Special Elite', fantasy;
+    background-color: aquamarine;
+}
+
+#score
+{
+    font-size: medium;
+    margin-left: 20px;
+}
+
+#time
+{
+    font-size: medium;
+    margin-left: 20px;
+}
+
+#sketch_name
+{
+    color: crimson;
+}
+
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 200px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 38px grey;}
+    to{box-shadow: 1px 1px 38px white;}
+}
+
+p{
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+
